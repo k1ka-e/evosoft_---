@@ -1,0 +1,823 @@
+@media (max-width: 1500px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .about__subtitle {
+    font-size: 80px;
+  }
+
+  .tabcontant__title {
+    font-size: 70px;
+  }
+}
+
+/* Large desktops and laptops */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+
+  /* navbar */
+  a.nav__play {
+    display: none;
+  }
+
+  /* header */
+  .header__subtitle,
+  .about__title,
+  .tabcontant__title {
+    font-size: 50px;
+  }
+
+  /* about */
+  .about__subtitle {
+    font-size: 60px;
+  }
+
+  /* services */
+  .tabcontant__title {
+    font-size: 60px;
+  }
+
+  .tabcontent__img {
+    width: 600px;
+  }
+
+  .tabcontent__description {
+    margin-top: 40px;
+  }
+
+  .services__column__right {
+    margin-left: 0;
+  }
+
+  /* postfolio */
+  .portfolio__content {
+    grid-template-columns: 1fr;
+  }
+
+  /* contact */
+  .contact__body {
+    margin-left: 0;
+  }
+
+  /* form */
+  .form-group select {
+    font-size: 10px;
+  }
+
+  .client__title {
+    margin-bottom: calc((251vh - 200px) / 30);
+  }
+
+  /* page */
+  .page__left h2 {
+    font-size: 28px;
+  }
+
+  .page__text,
+  .page__list li,
+  .btn-primary.page {
+    font-size: 14px;
+  }
+
+  .blog__item {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .cursor {
+    opacity: 0;
+  }
+
+  /* navbar */
+  .nav_menu {
+    display: none;
+  }
+
+  .b-menu {
+    opacity: 1;
+  }
+
+  .header {
+    position: static;
+  }
+
+  /* header */
+  #canvasOne {
+    width: 400px;
+    height: 400px;
+  }
+
+  .header__btn {
+     width: 120px;
+     height: 120px;
+     font-size: 15px;
+  }
+
+  .header__btn i {
+    max-width: 70px;
+    margin-left: 1.5rem;
+  }
+
+  .header__subtitle,
+  .about__title,
+  .tabcontant__title {
+    font-size: 40px;
+  }
+
+  .header__title,
+  .about__left h2 {
+    font-size: 17px;
+  }
+
+  /* about */
+  .about__subtitle {
+    font-size: 45px;
+  }
+
+  .about__left h2 {
+    margin-top: 0;
+  }
+
+  .about__link {
+    margin-top: 3rem;
+  }
+
+  /* portfolio */
+  .tablinks {
+    font-size: 15px;
+  }
+
+  .tabcontant__title {
+    font-size: 50px;
+    right: -12px;
+    top: 255px;
+  }
+
+  .tabcontent__img {
+    width: 500px;
+  }
+
+  .tabcontent__description {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+
+  .portfolio__img {
+    width: 200px;
+    height: auto;
+  }
+
+  .portfolio__html {
+    padding-top: 2rem;
+  }
+
+  /* contact */
+  .contact {
+    padding-top: 2rem;
+  }
+
+  .contact__content {
+    display: block;
+  }
+
+  .contact__left,
+  .contact__right {
+    width: 100%;
+  }
+
+  .contact__right {
+    margin-top: 2rem;
+  }
+
+  .contact__right {
+    margin-left: 0;
+  }
+
+  .contact__btn {
+    display: none;
+  }
+
+  /* about_help */
+  .about__help__title,
+  .advantages__title {
+    font-size: 30px;
+  }
+
+  .column__discription,
+  .advantages__list__body {
+    margin-top: 2rem;
+    line-height: 1.2;
+  }
+
+  .about__help__right {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .about__help__content,
+  .about__help__column,
+  .advantages__columns {
+    display: block;
+  }
+
+  /* form */
+  /* .form-group textarea,
+  .form-group input,
+  .form-group select {
+    font-size: 10px;
+  } */
+
+  /* client in co */
+  .clients__content {
+    display: block;
+  }
+
+  .client__left,
+  .client__right {
+    width: 100%;
+  }
+
+  /* page */
+  .page__content {
+    display: block;
+  }
+
+  .page__left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .page__right {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .blog__content {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 810px) {
+  .header__btn {
+    display: none;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .container {
+    max-width: 650px;
+  }
+
+  /* загаловки в блоках */
+  .header__subtitle,
+  .about__title,
+  .tabcontant__title {
+    font-size: 30px;
+  }
+
+  /* about */
+  .about__subtitle {
+    font-size: 40px;
+  }
+
+  /* services */
+  .tabcontant__title {
+    right: -5px;
+    top: 210px;
+  }
+
+  .tabcontent__img {
+    width: 390px;
+  }
+
+  .b-menu {
+    right: 3.3rem;
+  }
+
+  .blog__subtitle {
+    font-size: 14px;
+  }
+
+
+
+  .blog__block img:hover {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 692px) {
+  .container {
+    max-width: 550px;
+  }
+
+  /* header */
+  .header__left {
+    padding-top: 2rem;
+  }
+
+
+
+  .header__title,
+  .about__left h2 {
+    font-size: 15px;
+  }
+
+  #canvasOne {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* about */
+  .about__left {
+    flex: 0 1 100%;
+  }
+
+  /* services */
+  .services__content {
+    display: block;
+  }
+
+  .services__column__right {
+    margin-top: 1rem;
+    margin-left: 10%;
+  }
+
+  .tabcontent__img {
+    width: 427px;
+  }
+
+  .tabcontant__title {
+    right: 30px;
+    top: 230px;
+  }
+
+  .tabs button {
+    text-align: center;
+  }
+
+  /* portfolio */
+  .portfolio {
+    padding-top: 33rem;
+  }
+
+  .portfolio__html {
+    padding-top: 2rem;
+  }
+
+  /* contact */
+
+  .info__info a,
+  .form-group label,
+  .btn-primary {
+    font-size: 15px;
+  }
+
+  /* form */
+  .form-group select {
+    font-size: 10px;
+  }
+
+  .detail__header h1,
+  .detail__article h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    max-width: 450px;
+  }
+
+  #canvasOne {
+    width: 250px;
+    height: 250px;
+  }
+
+  .testimonial__body p {
+    font-size: 13px;
+  }
+
+  .header__subtitle,
+  .about__title,
+  .tabcontant__title {
+    font-size: 20px;
+  }
+
+  .header__btn {
+    margin: 10px 0;
+  }
+
+  .header__btn i {
+    margin-left: 1rem;
+  }
+
+  .tabcontent__img {
+    width: 330px;
+  }
+
+  .tabcontant__title {
+    right: 48px;
+    top: 180px;
+  }
+
+  .tabcontent__description {
+    font-size: 10px;
+  }
+
+  .tabs {
+    padding-right: 2rem;
+  }
+
+  .header__title,
+  .about__left h2 {
+    font-size: 13px;
+  }
+
+  .about__subtitle {
+    font-size: 30px;
+  }
+
+  .about__help__title,
+  .advantages__title {
+    font-size: 25px;
+  }
+
+  .links {
+    margin-top: 2rem;
+  }
+
+  .portfolio__block img {
+    width: 250px;
+  }
+
+  /* Contact */
+  .contact__title {
+    font-size: 20px;
+  }
+
+  .contact__left {
+    margin-left: 0;
+  }
+
+  .contact__subtitle {
+    font-size: 15px;
+  }
+
+  /* About__help */
+
+  .about__help__right {
+    margin-left: 0;
+  }
+
+  .column__discription:first-child {
+    margin-right: 0;
+  }
+
+  .advantages__list__item {
+    width: 100%;
+  }
+
+  /* form */
+  .form-group textarea,
+  .form-group input,
+  .form-group select {
+    font-size: 10px;
+  }
+
+  .blog__title {
+    font-size: 16px;
+  }
+
+  
+
+  .blog__info, .blog__info a {
+    font-size: 14px;
+  }
+
+  .blog__block img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 350px;
+  }
+
+  #canvasOne {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* navbar */
+  .nav__left {
+    gap: 0;
+  }
+
+  .nav__logo a img {
+    width: 180px;
+  }
+
+  .custom-select-trigger {
+    padding: 7.5px 10px 4.5px 12px;
+  }
+
+  .b-nav {
+    width: 390px;
+  }
+
+  /* header */
+  .header__content {
+    display: block;
+  }
+
+  .header__subtitle,
+  .header__title {
+    text-align: center;
+  }
+
+  .tablinks {
+    font-size: 13px;
+  }
+
+  /* form */
+  .form-group label {
+    left: 12px;
+  }
+
+  /* about */
+  .about__help__title,
+  .advantages__title {
+    font-size: 20px;
+  }
+
+  .about__left {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__right {
+    flex: none;
+  }
+
+  .links {
+    margin-right: 0;
+  }
+
+  .link {
+    margin-left: 0.5rem;
+  }
+
+  .about__link h1 {
+    margin-left: 1rem;
+  }
+
+  .about__subtitle {
+    font-size: 25px;
+  }
+
+  .column__discription,
+  .advantages__list__body {
+    font-size: 12px;
+  }
+
+  /* reviews */
+  .reviews__star i {
+    font-size: 1.5rem;
+  }
+
+  /* services */
+  .tabcontant__title {
+    right: 34px;
+    top: 144px;
+  }
+
+  .services__content {
+    margin-top: 4rem;
+  }
+
+  .portfolio {
+    padding-top: 20rem;
+  }
+
+  .tabcontent__img {
+    width: 268px;
+  }
+
+  /* reviews */
+  /* .reviews__google__logo::before {
+    height: 2px;
+    width: 100px;
+    margin-right: 16px;
+  }
+  
+  .reviews__google__logo::after {
+    height: 2px;
+    width: 100px;
+    margin-right: 16px;
+  } */
+
+  /* portfolio */
+  .portfolio__block img {
+    width: 150px;
+  }
+
+  .portfolio__text {
+    font-size: 12px;
+  }
+
+  /* page */ 
+  .page__left h2 {
+    font-size: 20px;
+  }
+
+  .page__text,
+  .page__list li,
+  .btn-primary.page {
+    font-size: 12px;
+  }
+
+  .blog__block img {
+    width: 300px;
+    height: auto;
+  }
+
+  .detail__info, .detail__info a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 300px;
+  }
+
+  #canvasOne {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* navbar */
+  .b-menu {
+    right: 1.3000000000000007rem;
+  }
+
+  .b-nav {
+    width: 355px;
+  }
+
+  .header__left {
+    padding-top: 2rem;
+  }
+
+  /* about */
+  .about__subtitle {
+    font-size: 20px;
+  }
+
+  .tabcontent__img {
+    width: 220px;
+  }
+  .tabcontant__title {
+    right: 20px;
+    top: 115px;
+  }
+
+  .tabcontent__description {
+    font-size: 10px;
+  }
+
+  /* portfolio */
+
+  .portfolio__block img {
+    width: 120px;
+    height: auto;
+  }
+
+  .portfolio__name {
+    font-size: 13px;
+  }
+
+  .portfolio__text {
+    font-size: 10px;
+  }
+
+  /* .advantages__list__body {
+    font-size: 15px;
+  } */
+
+  /* clients */
+  .client__title {
+    font-size: 13px;
+  }
+
+  .client__left {
+    margin-top: 0;
+  }
+
+  .info__info a,
+  .form-group label,
+  .btn-primary,
+  .contact__subtitle {
+    font-size: 13px;
+  }
+
+  /* btn */
+
+  .btn-primary {
+    padding: 7px 31px;
+  }
+
+  /* page */
+  .page__left h2 {
+    font-size: 15px;
+  }
+
+  .blog__subtitle,
+  .blog__read,
+  .blog__info, .blog__info a {
+    font-size: 12px;
+}
+.blog__block {
+  padding: 20px;
+}
+
+  .blog__block img {
+    width: 200px;
+    height: auto;
+  }
+
+  .blog__title {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 290px) {
+  .container {
+    max-width: 255px;
+}
+
+/* NAVBAR */
+
+.nav__logo a img {
+  padding-right: 0.5rem;
+}
+
+  .b-nav {
+    width: 256px;
+}
+
+.nav__logo a img {
+  width: 145px;
+}
+
+.form-control {
+  padding: 5px 5px;
+}
+
+.b-menu {
+  padding-top: 13px;
+}
+
+.b-menu {
+  right: 1.7rem;
+}
+
+/* REVIEWS */
+
+.reviews__google__logo img {
+  width: 100px;
+}
+
+/* portfolio */
+
+.portfolio__block img {
+  width: 76px;
+  height: auto;
+}
+
+.portfolio__name {
+  font-size: 10px;
+}
+
+.portfolio__block {
+  padding: 35px 10px;
+}
+
+.blog__title {
+  font-size: 13px;
+}
+
+}

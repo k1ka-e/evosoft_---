@@ -1,0 +1,1 @@
+<?php if ($_GET['page']=='contact'){require $_GET['lang'].'/contact_list.php';}?>
